@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Tektur:wght@400;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Tektur", cursive;
+  box-sizing: border-box;
+}
+
+main{
+  width:80vw;
+  height: 90vw;
+
+
+
+
+
+
+}
+body{
+
+  background: url(../assets/img/progr.jpg) no-repeat left ;
+  background-size: 78vw;
+  background-color: rgba(23, 82, 36, 0.603);
+display: flex;
+flex-direction: column;
+
+
+
+
+}
+p{
+  font-size: 37px;
+  font-weight:bold;
+  border-radius: 12px;
+  flex-direction: row-reverse;
+  background:rgba(7, 37, 104, 0.247)  no-repeat 68vw ;
+  
+  
+
+
+  
+  
+}
+h1 {
+  font-size: 80px;
+  text-align: center;
+  background: rgba(6, 28, 75, 0.61) ;
+  border-radius: 10px;
+ 
+  size: 80vw;
+  
+}
