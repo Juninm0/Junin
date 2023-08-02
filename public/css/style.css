@@ -16,10 +16,18 @@ body {
   align-items: center;
 }
 
-header {
-  background: url(../assets/img/6362044.png) no-repeat;
-  background-color: rgb(10, 23, 63);
+header h1 {
+  background: url(../assets/img/6362044.png) no-repeat ;
+
   background-size: cover;
+  color: rgba(133, 182, 184, 0.651);
+  width: 100%;
+}
+header h2 {
+
+
+
+  background-size: 50px;
   color: rgba(133, 182, 184, 0.651);
   width: 100%;
 }
@@ -60,20 +68,40 @@ h1 {
   size: 80vw;
 }
 
-main section.social {
-font-size: 30px;
-display: flex;
-justify-content: center;
-
+main section.sobre-mim {
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main section.vida {
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main section.vida img{
+  padding-bottom: 40px;
 }
 
 
+main section.sobre-mim img {
+  padding-bottom: 40px;
+}
 
-
-
+main section.social {
+  font-size: 15px;
+ justify-content: space-between;
   
+  display: flex;
+  justify-content: center;
+}
+main section.social img {
+  padding: 10px;
+  size: 20px;
+  display: flex;
  
-
+}
 
 footer {
   width: 100%;
