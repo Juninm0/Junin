@@ -1,0 +1,4 @@
+1. Create a TXT record in your DNS configuration for the following hostname: _github-pages-challenge-Juninm0.juninm0.about.com
+2. Use this code for the value of the TXT record: 9974b3d6dbb36a8c1290d53d1733c1
+3. Wait until your DNS configuration changes. This could take up to 24 hours to propagate.
+  
