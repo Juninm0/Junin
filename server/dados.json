@@ -10,7 +10,7 @@
         "id": "02",
         "nome": "gerador de cards aleatórios RPG",
         "descricao": "Um gerador de cards com informações de um personagem de MMORPG feito em JS, HTML e CSS.",
-        "link": "https://github.com/Juninm0",
+        "link": "https://github.com/Juninm0/rpgcard",
         "imagem":"./assets/img/img-sei-la.jpg"
     },
     {
@@ -18,7 +18,7 @@
         "nome": "Piskel",
         "descricao": "Uma pequena arte de pixels que veio na cabeça...",
 
-        "link": "https://github.com/Juninm0",
+        ".piskeFile": "",
         "imagem":"./assets/img/img-sei-la.jpg"
     },
     
