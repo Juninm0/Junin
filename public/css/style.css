@@ -18,9 +18,9 @@ body {
 
 header h1 {
   background: url(../assets/img/6362044.png) no-repeat ;
-
+  font-weight: bold;
   background-size: cover;
-  color: rgba(133, 182, 184, 0.651);
+  color: rgb(225, 4, 4);
   width: 100%;
 }
 header h2 {
@@ -28,7 +28,7 @@ header h2 {
 
 
   background-size: 50px;
-  color: rgba(133, 182, 184, 0.651);
+  color: rgb(25, 236, 243);
   width: 100%;
 }
 
@@ -44,6 +44,14 @@ main {
   text-align: justify;
   background-color: rgba(17, 17, 51, 0.6);
   border-radius: 15px;
+}
+#bt{
+color:rgb(0, 0, 0);
+font-weight: bolder;
+background-color: floralwhite;
+display: flex;
+
+
 }
 table{
 width: 100%;
