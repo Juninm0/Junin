@@ -18,7 +18,7 @@
         "nome": "Piskel",
         "descricao": "Uma pequena arte de pixels que veio na cabeça...",
 
-        ".piskeFile": "",
+        ".piskelfile": "...",
         "imagem":"./assets/img/img-sei-la.jpg"
     },
     
