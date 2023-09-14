@@ -32,8 +32,8 @@
     },
     {
         "id": "05",
-        "nome": "Em breve",
-        "descricao": " Em breve.....",
+        "nome": "Mario",
+        "descricao": " Um dos meus primeiros jogo em quase todo na liguagem JS",
         "link": "https://github.com/Juninm0",
          "imagem":"./assets/img/img-sei-la.jpg"
 
