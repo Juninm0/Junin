@@ -7,7 +7,7 @@
 }
 
 body {
-  background: url(../assets/img/progr.jpg) no-repeat center;
+  background: url(../assets/img/progr.png) no-repeat center;
   background-size: 100%;
   background-color: rgb(22, 15, 121);
   display: flex;
@@ -18,9 +18,9 @@ body {
 
 header h1 {
   background: url(../assets/img/6362044.png) no-repeat ;
-
+  font-weight: bold;
   background-size: cover;
-  color: rgba(133, 182, 184, 0.651);
+  color: rgb(225, 4, 4);
   width: 100%;
 }
 header h2 {
@@ -28,12 +28,12 @@ header h2 {
 
 
   background-size: 50px;
-  color: rgba(133, 182, 184, 0.651);
+  color: rgb(25, 236, 243);
   width: 100%;
 }
 
 main {
-  width: 70%;
+  width: 95%;
   height: 45vw;
   padding: 20px;
   color: rgba(133, 182, 184, 0.601);
@@ -45,7 +45,28 @@ main {
   background-color: rgba(17, 17, 51, 0.6);
   border-radius: 15px;
 }
-main img {
+#bt{
+color:rgb(0, 0, 0);
+font-weight: bolder;
+background-color: floralwhite;
+display: flex;
+
+
+}
+table{
+width: 100%;
+border-collapse: collapse;
+margin: 20px 0;
+font-size: 16px;
+
+}
+th, td {
+border: 1px solid #232323;
+padding: 8px;
+text-align: left;
+
+}
+main img {                                                                                                                                        
   width: 20%;
   height: auto;
   border-radius: 10px;

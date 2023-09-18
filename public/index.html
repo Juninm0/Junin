@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meu Site</title>
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: rgb(0, 0, 255);
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: rgb(0, 255, 0);
+            color: rgb(255, 255, 255);
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Questionário de Informações e Contato</h1>
+    <form action="processar.php" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+        
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Site do Junin></title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="./meusProjetos.html">
+          <buttom id="bt">Meus Projetos</buttom>
+        </a></li>
+      <li><a href="./projetomario.html">
+          <buttom id="bt">Amostra de meu Minigame </buttom>
+        </a></li>
+    </ul>
+  </nav>
+  <header>
+
+    <h1>Andre Junior, Gostos, Vida e Futuro</h1>
+    <h2>
+      <img src="./public/assets/img/algmn.png" alt="" />
+    </h2>
+  </header>
+
+  <main>
+    <section class="sobre-mim">
+      <img src="./public/assets/img/luke-Junin.png" alt="" />
+      Sobre André Junior e seus Gostos: Sou um programador em aprendizagem, me
+      chamo André, os mais próximos de mim de chamam de Junin :D, tenho 15
+      anos, e sempre gostei de tecnologia! || Gosto de gatos, jogos, adoro
+      comer e dormir, programar e DESENHAR! Quer ver meus desenhos? || veja
+      meu Instagram: @arts.andy_studio || @andrezin_yt.08 me segue aí :D
+    </section>
+
+    <section class="ida">
+      <img src="./public/assets/img/transferir (1).png" alt="" />
+
+      Desde pequeno, sempre quis aprender mais sobre tecnologia, mas a
+      tecnologia que tinha era somente os celulares dos meus pais, e dai, eu
+      acabei sem recursos. Porém no meu aniversário de 12 anos foi ganhei meu
+      primeiro computador do meu pai, no meio da pandeia inclusive, eu acabei
+      querendo fazer programação, com meus interesses de trabalhar em algo que
+      eu goste, pois, quem quer trabalhar com o que não gosta? Aí acabei
+      fazendo o curso da Pós-Rio Poliotécnica(recomendo, são muito bons no que
+      fazem!), e acabei me achando no que gosto e no que realmente quero
+      Trabalhar quando for mais velho: PROGRAMAÇÃO! Eu comecei em abril do ano
+      passado a cursar, e completei nesse ano a parte inicial do curso, agora
+      estou no meio da intermediara, e estou adorando! Pretendo trabalhar na
+      alterdata em Teresópolis, ou ser um Programador De Jogos(Estou
+      aprendendo, mas se já criei este site e jogos que estão no meu github,
+      inclusive, já meio que sou um programador na minha opinião)!
+    </section>
+
+    <section class="social">
+      <div class="cards card1">
+        
+        <h2>
+          Minha Rede Social!
+          <a href="https://www.instagram.com/arts.andy_studio/" alt="Instagram">
+            
+            <button class="btncard">Saiba mais</button>
+            <li class="it">
+
+              <img src="./public/assets/img/it.png" alt="instagram" />
+            </li>
+          </a>
+        </h2>
+        <p></p>
+      </div>
+      <div class="cards card2">
+        <h2>
+          
+          Meu Github!
+          <a href="https://github.com/Juninm0" alt="Github">
+            <button class="btncard">Saiba mais</button>
+            <li class="gth">
+              <img src="./public/assets/img/github-sign.png" alt="github-site" />
+            </li>
+          </a>
+        </h2>
+      </div>
+      <div class="cards card3">
+       
+        <h2>
+          Meu Servidor do Discord!
+          <a href="https://discord.gg/sYDdJ8NBS9" alt="Discord">
+            <button class="btncard">Saiba mais</button>
+            <li class="dc">
+              <img src="./public/assets/img/dc.png" alt="Dc" />
+            </li>
+          </a>
+        </h2>
+      </div>
+    </section>
+  </main>
+
+  <footer>&COPY; todos os direitos reservador | Andre Junior 2023</footer>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+[
+    {
+        "id": "01",
+        "nome": "dino Google",
+        "descricao": "Jogo do dinossauro feito em JS.",
+        "link": "https://scratch.mit.edu/projects/711633476",
+        "imagem":"./assets/img/img-sei-la.jpg"
+    },
+    {
+        "id": "02",
+        "nome": "gerador de cards aleatórios RPG",
+        "descricao": "Um gerador de cards com informações de um personagem de MMORPG feito em JS, HTML e CSS.",
+        "link": "https://github.com/Juninm0/rpgcard",
+        "imagem":"./assets/img/img-sei-la.jpg"
+    },
+    {
+        "id": "03",
+        "nome": "Piskel",
+        "descricao": "Uma pequena arte de pixels que veio na cabeça...",
+
+        ".piskelfile": "...",
+        "imagem":"./assets/img/img-sei-la.jpg"
+    },
+    
+    {
+        "id": "04",
+        "nome": "fruit ninja xineis kkk",
+        "descricao": " Um classico jogo de celular no google :) e ainda é ching xong kkkkkkkkkkk",
+
+        "link": "https://juninm0.github.io/fruitninja/",
+        "imagem":"./assets/img/img-sei-la.jpg"
+    },
+    {
+        "id": "05",
+        "nome": "Mario",
+        "descricao": " Um dos meus primeiros jogo em quase todo na liguagem JS",
+        "link": "https://github.com/Juninm0",
+         "imagem":"./assets/img/img-sei-la.jpg"
+
+    },
+    {
+        "id": "06",
+        "nome": "Em breve",
+        "descricao": " Em breve",
+        "link": "https://github.com/Juninm0",
+         "imagem":"./assets/img/img-sei-la.jpg"
+
+    }
+]
